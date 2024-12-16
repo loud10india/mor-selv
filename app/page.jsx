@@ -3,8 +3,8 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 export const metadata = {
-    title: "Main About 1 || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-    description: "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    title: "Mor-Selv",
+    description: "Wellness, Exclusively for Women",
 };
 export default function MainAboutPage1() {
     return (
@@ -14,9 +14,6 @@ export default function MainAboutPage1() {
                     <>
                         <nav className='main-nav dark light-after-scroll transparent stick-fixed wow-menubar wch-unset'>
                             <div className='main-nav-sub full-wrapper'>
-                                {/* Logo  (* Add your text or image to the link tag. Use SVG or PNG image format. 
-              If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
-              image size for support of retina screens. See details in the template documentation. *) */}
                                 <div className='nav-logo-wrap local-scroll'>
                                     <Link href={`/`} className='logo'>
                                         <Image
